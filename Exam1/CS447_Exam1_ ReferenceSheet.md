@@ -7,7 +7,9 @@
 		
 		- Destination PC = Start PC + 4 + (SignExt(Imm)*4)
 
-		- Quick and dirty hack: Starting at instruction, count instructions until destination, subtract 1 (or start at next instruction)
+		- Quick and dirty hack: Starting at instruction, 
+		  count instructions until destination,
+		  subtract 1 (or start at next instruction)
 
 	- Formula for J type address:
 
